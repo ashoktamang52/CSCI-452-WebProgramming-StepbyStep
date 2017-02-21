@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond;
+}
+
+#mainHeading {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font-size: 22pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font-size: 18pt;
+    text-decoration: underline;
+}
