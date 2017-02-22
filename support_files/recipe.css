@@ -61,3 +61,11 @@ ul {
 .bold {
 	font-weight: bold; 
 }
+
+a:hover p {
+	display: block;
+}
+a p {
+	display: none;
+	visibility: hidden;
+}

@@ -1,0 +1,14 @@
+body > div > h3 {
+    font-size: 48px;
+    background-color: yellowgreen;
+    margin: 5px;
+}
+
+body div {
+    align-content: center;
+}
+
+table {
+    border: 2px solid palegreen;
+    text-align: center;
+}
