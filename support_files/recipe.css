@@ -51,3 +51,7 @@ pre{
 	background-color: #F0F0F0;
 	text-decoration: underline;
 }
+
+ul {
+	list-style-image: url('pie_icon.gif');
+}
