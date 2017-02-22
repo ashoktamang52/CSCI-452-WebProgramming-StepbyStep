@@ -16,6 +16,8 @@ blockquote {
 
 body {
 	background-color: white;
+	background-image: url('silverware.jpg');
+	background-repeat: repeat repeat;
 	color: #404040;
 	font-family: Georgia, Garamond, serif;
 	font-size: 11pt;
@@ -54,4 +56,8 @@ pre{
 
 ul {
 	list-style-image: url('pie_icon.gif');
+}
+
+.bold {
+	font-weight: bold; 
 }
