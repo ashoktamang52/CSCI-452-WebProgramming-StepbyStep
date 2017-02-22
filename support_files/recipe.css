@@ -38,3 +38,8 @@ h2 {
 	font-size: 18pt;
 	font-weight: normal;
 }
+
+pre{
+  text-align: right;
+  width: 40%;
+}
