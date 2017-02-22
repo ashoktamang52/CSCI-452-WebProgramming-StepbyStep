@@ -10,6 +10,8 @@ abbr {
 blockquote {
 	background-color: #FFFFA8;
 	font-style: italic;
+	border: 1px solid black;
+
 }
 
 body {
@@ -19,14 +21,14 @@ body {
 	font-size: 11pt;
 }
 
-h1, h2, a {
+a {
 	color: #A4A400;
 }
 
 h1, h2 {
-	background-color: #F0F0F0;
+	/*background-color: #F0F0F0;*/
 	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
-	text-decoration: underline;
+	
 }
 
 h1 {
@@ -41,5 +43,11 @@ h2 {
 
 pre{
   text-align: right;
-  width: 40%;
+  width: 25%;
+}
+
+.text-highlight {
+	color: #A4A400;
+	background-color: #F0F0F0;
+	text-decoration: underline;
 }
