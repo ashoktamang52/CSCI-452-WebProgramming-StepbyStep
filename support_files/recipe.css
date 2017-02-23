@@ -63,12 +63,15 @@ ul li {
 
 
 span.tooltip {
+	position: relative;
 	visibility: visible;
 	display: inline-block;
 }
 
 span.tooltiptext {
 	display: none;
+	position: absolute;
+	z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
