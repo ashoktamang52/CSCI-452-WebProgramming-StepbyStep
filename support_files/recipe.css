@@ -66,12 +66,17 @@ span.tooltip {
 	position: relative;
 	visibility: visible;
 	display: inline-block;
+	text-decoration: underline;
 }
 
 span.tooltiptext {
 	display: none;
 	position: absolute;
 	z-index: 1;
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+	bottom: 100%;
 }
 
 .tooltip:hover .tooltiptext {
