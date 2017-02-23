@@ -53,19 +53,24 @@ ul {
 	list-style-image: url('pie_icon.gif');
 }
 
+ul li {
+	clear: left;
+}
+
 .bold {
 	font-weight: bold; 
 }
 
 
-.tooltip {
+span.tooltip {
 	visibility: visible;
+	display: inline-block;
 }
 
-.tooltip .tooltiptext {
-	visibility: hidden;
+span.tooltiptext {
+	display: none;
 }
 
 .tooltip:hover .tooltiptext {
-	visibility: visible;
+	display: block;
 }
