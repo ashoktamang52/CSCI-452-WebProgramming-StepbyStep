@@ -1,7 +1,10 @@
+body {
+    margin: 10px 5px 10px 10px;
+}
+
 body > div > h3 {
     font-size: 48px;
     background-color: yellowgreen;
-    margin: 5px;
 }
 
 body div {
@@ -11,4 +14,17 @@ body div {
 table {
     border: 2px solid palegreen;
     text-align: center;
+    float: right;
+}
+
+a {
+    float: left;
+    height: 50%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
