@@ -43,11 +43,6 @@ h2 {
 	font-weight: normal;
 }
 
-pre{
-  text-align: right;
-  width: 25%;
-}
-
 .text-highlight {
 	color: #A4A400;
 	background-color: #F0F0F0;
@@ -62,10 +57,15 @@ ul {
 	font-weight: bold; 
 }
 
-a:hover p {
-	display: block;
+
+.tooltip {
+	visibility: visible;
 }
-a p {
-	display: none;
+
+.tooltip .tooltiptext {
 	visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
 }
