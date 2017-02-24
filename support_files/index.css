@@ -1,3 +1,12 @@
+/*
+CSS File for index.html
+Ashok Tamang
+@02721056
+
+This documented is validated as CSS Level 3 by 
+https://jigsaw.w3.org/css-validator/
+*/
+
 body {
     margin: 10px 5px 10px 10px;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -22,6 +31,8 @@ table {
 a {
     float: left;
     height: 50%;
+    margin-left: 40px;
+
 }
 
 .center {
