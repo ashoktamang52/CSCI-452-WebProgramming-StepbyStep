@@ -61,7 +61,15 @@ ul li {
 	font-weight: bold; 
 }
 
+.strike {
+	text-decoration: line-through;
+}
 
+blockquote div.username {
+	margin-top: 10px;
+}
+
+/*Reference from https://www.w3schools.com/css/css_tooltip.asp*/
 span.tooltip {
 	position: relative;
 	visibility: visible;
